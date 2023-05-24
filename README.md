@@ -55,9 +55,10 @@ server {
 ```
 
 ### MySQL
+```
 CREATE DATABASE retracker;
 CREATE USER 'retracker'@'localhost' IDENTIFIED BY 'my-database-password';
 GRANT SELECT,INSERT,UPDATE,DELETE ON retracker.* TO 'retracker'@'localhost';
 
 # mysql -uroot -p -D retracker < ./announce/mysql.sql
-
+```
