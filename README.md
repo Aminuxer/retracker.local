@@ -4,7 +4,7 @@ Only web-server with PHP and MySQL needed.
 
 
 ## Installation
-Create new database from dump `mysql.sql` and mysql user with select / insert / delete permissions to created DB.
+Create new database from dump `announce/mysql.sql` and mysql user with select / insert / delete permissions to created DB.
 Place web-scripts and mainly `announce` directory to root directory of your `retracker.local` virtual host.
 Edit `config.php` anf setup correctr DB-user and DB-password data.
 
