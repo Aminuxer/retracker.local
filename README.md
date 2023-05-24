@@ -1,5 +1,5 @@
 # retracker.local
-Provider-side torrent traffic optimizer - retracker.local in one lightweight PHP script.
+Provider-side torrent traffic optimizer - retracker.local in one lightweight PHP script for actual PHP-8 versions.
 Only web-server with PHP and MySQL needed.
 
 
