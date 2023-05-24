@@ -62,3 +62,9 @@ GRANT SELECT,INSERT,UPDATE,DELETE ON retracker.* TO 'retracker'@'localhost';
 
 # mysql -uroot -p -D retracker < ./announce/mysql.sql
 ```
+
+### crontab
+/usr/bin/wget -O /dev/null "http://retracker.local/announce/?run_gc=1"
+
+### Security
+Change `run_gc` key for more secret value or restrict this queries by nginx config to trusted IP.
