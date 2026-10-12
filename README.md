@@ -56,11 +56,11 @@ server {
 
 ### MySQL
 ```
-CREATE DATABASE retracker;
+CREATE DATABASE retracker_local;
 CREATE USER 'retracker'@'localhost' IDENTIFIED BY 'my-database-password';
-GRANT SELECT,INSERT,UPDATE,DELETE ON retracker.* TO 'retracker'@'localhost';
+GRANT SELECT,INSERT,UPDATE,DELETE ON retracker_local.* TO 'retracker'@'localhost';
 
-# mysql -uroot -p -D retracker < ./announce/mysql.sql
+# mysql -uroot -p -D retracker_local < ./announce/mysql.sql
 ```
 
 ### crontab

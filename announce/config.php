@@ -19,13 +19,12 @@ $tr_cfg['allow_internal_ip']  = true;              // Allow internal IP (10.xx..
 $tr_cfg['debug']  = 0;                                 // 0 - OFF, 1 - only exceptions, 2 - more and more
 $tr_cfg['debug_file']  = '/tmp/retracker_debug.txt';   // Debug log file
 
-
 // DB - MySQL
 $tr_cfg['tr_db']['mysql'] = array(
 	'dbhost'   => '127.0.0.1',
 	'dbuser'   => 'retracker',
 	'dbpasswd' => 'my-database-password',
-	'dbname'   => 'retracker',
+	'dbname'   => 'retracker_local',
 	'pconnect' => false,
 	'log_name' => 'MySQL',
 );
